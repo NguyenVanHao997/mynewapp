@@ -16,7 +16,7 @@ const mongoose_1 = __importDefault(require("mongoose"));
 const models_1 = require("../models");
 const interfaces_1 = require("../interfaces");
 // Kết nối database trước
-mongoose_1.default.connect("mongodb://localhost:27017/test_db");
+mongoose_1.default.connect("mongodb://mongo:mnQObcoYGHaLmYJmLuKoAOsbNLhwJedd@mongodb.railway.internal:27017");
 const seedInfos = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const users = yield models_1.User.find();

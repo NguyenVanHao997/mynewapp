@@ -3,7 +3,9 @@ import { User } from "../models";
 import { Info } from "../interfaces";
 
 // Kết nối database trước
-mongoose.connect("mongodb://localhost:27017/test_db");
+mongoose.connect(
+  "mongodb://mongo:mnQObcoYGHaLmYJmLuKoAOsbNLhwJedd@mongodb.railway.internal:27017"
+);
 
 const seedInfos = async () => {
   try {
