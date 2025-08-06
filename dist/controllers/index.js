@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getProductByCategory = exports.getAllProducts = exports.updateInfoByEmail = exports.getUserProfile = exports.login = exports.register = exports.searchUsers = exports.uploadUserAvatar = exports.updateUserName = exports.getAllUsers = void 0;
+const auth_controller_1 = require("./auth.controller");
+Object.defineProperty(exports, "login", { enumerable: true, get: function () { return auth_controller_1.login; } });
+Object.defineProperty(exports, "register", { enumerable: true, get: function () { return auth_controller_1.register; } });
+const product_controller_1 = require("./product.controller");
+Object.defineProperty(exports, "getAllProducts", { enumerable: true, get: function () { return product_controller_1.getAllProducts; } });
+Object.defineProperty(exports, "getProductByCategory", { enumerable: true, get: function () { return product_controller_1.getProductByCategory; } });
+const user_controller_1 = require("./user.controller");
+Object.defineProperty(exports, "getAllUsers", { enumerable: true, get: function () { return user_controller_1.getAllUsers; } });
+Object.defineProperty(exports, "getUserProfile", { enumerable: true, get: function () { return user_controller_1.getUserProfile; } });
+Object.defineProperty(exports, "searchUsers", { enumerable: true, get: function () { return user_controller_1.searchUsers; } });
+Object.defineProperty(exports, "updateInfoByEmail", { enumerable: true, get: function () { return user_controller_1.updateInfoByEmail; } });
+Object.defineProperty(exports, "updateUserName", { enumerable: true, get: function () { return user_controller_1.updateUserName; } });
+Object.defineProperty(exports, "uploadUserAvatar", { enumerable: true, get: function () { return user_controller_1.uploadUserAvatar; } });

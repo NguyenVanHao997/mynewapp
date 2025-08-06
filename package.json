@@ -2,14 +2,14 @@
   "name": "mynewapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "dist/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
     "start:dev": "nodemon src/server.ts",
     "clean": "rm -rf dist && find src -type f \\( -name \"*.js\" -o -name \"*.js.map\" \\) -delete",
-    "start": "node dist/server.js",
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "",
